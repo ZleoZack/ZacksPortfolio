@@ -1,0 +1,126 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/*Here in my CSS file I have used the methods taught in Module 5 of the HTML and CSS course from Thinkful.*/
+
+header {
+  font-size: 15px;
+  font-family: georgia;
+  color: aqua;
+  text-align: center;
+  border-width: 10px;
+  border-radius: 10px;
+  background-color: brown;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*By listing the Selectors below (HTML element that will be styled) I am able to change the properties of these Selectors in many ways such as border-radius, text-alignment, etc.*/
+
+nav {
+  border-radius: 15px;
+  border-color: aqua;
+  text-align: center;
+  border-width: 10px;
+  border-radius: 10px;
+  background-color: brown;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Here I am able to take multiple Selectors and combine them with a comma, in order to keep this CSS file clean.*/
+
+h2, h3 {
+  font-size: 25px;
+  font-family: georgia;
+  color: aqua;
+  text-align: center;
+  border-width: 10px;
+  border-radius: 10px;
+  background-color: brown;
+  margin: 10px;
+  padding: 10px;
+}
+
+a {
+  font-family: arial;
+  text-decoration: underline;
+  color: aqua;
+  text-align: center;
+}
+
+/*The Selector a {} references all of my links/ attachments to this webpage, a< (stands for anchor)*/
+
+p {
+  font-size: 15px;
+  font-family: arial;
+  color: aqua;
+  text-align: center;
+  background-color: brown;
+  border-radius: 10px;
+  border-width: 10px;
+  padding: 10px;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+}
+ul,
+ol {
+  list-style-position: inside;
+  padding: 0;
+  background-color: brown;
+}
+ul {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+ol {
+  max-width: 80px;
+  margin: 0 auto;
+  padding: 10px;
+  color: aqua;
+}
+
+li {
+  max-width: 275px;
+  margin: 0 auto;
+  color: aqua;
+}
+
+footer {
+  background-color: brown;
+  border-width: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*Finishing up with the page design, I am excited to learn more about CSS and the styling I can use in the future!*/
+
+img {
+  border-radius: 25px;
+
+}
+div {
+
+  text-align: center;
+}
+body {
+  background-color: rgb(94, 14, 14);
+}
+
+a:link {
+  color: aqua;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: yellow;
+}
