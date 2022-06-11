@@ -1,0 +1,102 @@
+<!-- Every HTML document needs to start with this !DOCTYPE file, it helps to communicate that it is an HTML file-->
+<!DOCTYPE html>
+<html>
+
+ <!-- Here in the <head> another HTML element, we have things like the normalize CSS file, which allows for standarization of CSS per web browser etc, incase content isn't available on that platform-->  
+<head>
+   <!-- These Meta Files here are important as they set screen ratio to adjust to the user's current desktop width, and the charset helps devices know how to read these files-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+   <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    rel="stylesheet"
+      type="text/css"
+  />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <!-- Here under this specific HTML element <body> you will find the bulk of my webpage it is also one of the main HTML Elements-->
+    <header>
+          <!-- We have several links above targeting the CSS files, and allowing them to reference them and access them. Down below we do the same thing with our Javascript file.-->
+
+    <h1>Zackary Campbell's Portfolio</h1>
+    </header>
+    <hr>
+    <nav>
+     <a href="#about-me1.html">About me</a> 
+     <a href="#links.html">Links</a>
+      </nav>
+      <!-- Here in my <nav> I am using Reference Links to jump to different pieces of information on my page this is nice to do for the sleepy scroller-->
+      <hr>
+    <main> 
+    <article>
+      <div>
+      <h2> Introduction </h2>
+      </div>
+      <!-- I use containers such as <div> <section> and <article> to hold content within the body of the webpage in case I want to style with CSS, but also makes thing look more clean-->
+      <hr>
+      <section>
+      <p>Zackary Campbell, 28 Years old, Male.</p>
+     <center> <img src="images/zack.jpg" width="250px"  alt="Zack"></center>
+      <p>Located in The Region, Northwest Indiana</p>
+     <p> <a href="https://www.google.com/maps/place/Northwest+Indiana,+IN/@41.2489161,-87.0065154,9z/data=!3m1!4b1!4m5!3m4!1s0x8811ef1a8e511519:0x531f751260865dc1!8m2!3d41.5833736!4d-87.5001041" target="_blank">Map</a></p>
+     </section>
+     <!-- Some properties can be changed in the HTML file such as a command like <center> used above, I also use the elementTag <hr> this gives a link break in sections or after text-->
+     <hr>
+     <h2 name="about-me1.html" id="about-me1.html"> About Me </h2>
+     <hr>
+      <p>Hello, I am a 28 year old aspiring Software Egineer.</p>
+     <p>I am so excited to embark on this new journey in Software Engineering. Not only to
+       grow as an individual, but to build relationships with everyone I meet on my way up,
+       because I know I will meet them on my way down. I have been behind the computer since
+       I was 7 years old, and have been inseparable from it since. My passion stems from
+       gaming, informative reading, and networking on platforms like Discord and Teamspeak.</p>
+<hr>
+      <h3>Things I am proud of:<h3>
+      <hr>
+        <section>
+      <ul>
+        <li>Licensure in Massage Therapy</li>
+        <li>Health and Life insurance sales</li>
+        <li>Mortgage Loan Origination Courses</li>
+        <li>Real Estate Brokerage Diploma</li>
+        </ul>
+        <!-- Here I am using <ul> unordered lists, to create bullet points and show organization in the webpage, each declaration of <ul> should have <li> list items included then closed by </ul>--> 
+        </section>
+        <section>
+        <p>I have worked very hard in these passed 9 years of my life and am only just getting
+          started. From All American Cheerleader in Highschool, to now entreprenuer. I pride
+          myself on my accomplishments, and loyalty.</p>
+         </section>
+         </article>
+         </main>
+         <hr>
+         <footer>
+           <div>
+          <h2 name="links.html" id="links.html"> Contact</h2>
+       <hr>
+       <!-- Here in my footer I have made some cool little links, and put them into an <ul> in order to make them visually appealing, also put them in the <footer> element to orient them at the bottom-->
+            <ul>
+            <li><a href="https://www.linkedin.com/in/zackary-campbell-831092160/" target="_blank">LinkedIn</li></a>
+            <li><a href="https://github.com/ZleoZack" target="_blank">GitHub</li></a>
+            <li><a href="mailto:Zleonlion@gmail.com">Email me</li></a>
+           </ul>
+           </div>
+         </footer>
+
+    <script src="src/script.js"></script>
+    <!-- This file allows for all of the JavaScript code to be added to the page, the reason we have it down here at the bottom is so the rest of the webpage loads smoothly, then the Java files -->
+
+
+
+
+
+
+
+
+  
+</body>
+
+</html>
